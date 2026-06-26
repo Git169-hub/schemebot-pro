@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, END
-from app.nodes import (
+from nodes import (
     detect_language,
     assess_eligibility,
     web_search,

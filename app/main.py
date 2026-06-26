@@ -1,7 +1,7 @@
 import streamlit as st
 import sys
 sys.path.insert(0, r"C:\Users\Razak\schemebot_pro")
-from app.graph import agent
+from graph import agent
 
 st.set_page_config(page_title="SchemeBot Pro", page_icon="🏛️")
 st.title("🏛️ SchemeBot Pro")
